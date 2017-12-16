@@ -1,0 +1,17 @@
+<datasource-http-settings current="ctrl.current">
+    </datasource-http-settings>
+    
+<h3>Instana Details</h3>
+<div class="gf-form-group">
+        <div class="gf-form max-width-30">
+            <span class="gf-form-label width-7">Token</span>
+            <input type="text" class="tight-form-input input-xlarge" ng-model='ctrl.current.jsonData.token' placeholder=""></input>
+        </div>
+
+        <div class="gf-form max-width-30">
+            <span class="gf-form-label width-7">Rollup</span>
+            <div class="gf-form-select-wrapper gf-form-select-wrapper--has-help-icon max-width-24">
+                <select class="gf-form-input" ng-model="ctrl.current.jsonData.rollup" ng-options="f for f in possibleRollups"></select>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,35 @@
+{
+  "name": "Instana",
+  "id": "grafana-instana-datasource",
+  "type": "datasource",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/instana/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": true,
+
+  "info": {
+    "description": "instana datasource",
+    "author": {
+      "name": "Instana",
+      "url": "https://www.instana.com/"
+    },
+    "logos": {
+      "small": "img/stan.png",
+      "large": "img/stan.png"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+    ],
+    "version": "0.0.1",
+    "updated": "2017-09-21"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
